@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6" OpacityMask="#FF0F459C" Background="#FF09075A">
+        <Button Content="S O U N D T R A K&#xA;" HorizontalAlignment="Left" Margin="73,58,0,0" VerticalAlignment="Top" Height="123" Width="358" Click="Button_Click" Background="#FF7083D0" FontSize="36"/>
+        <Button Content="PLAY IS BACK" HorizontalAlignment="Left" Margin="212,186,0,0" VerticalAlignment="Top" Width="276" Height="29" Background="#FF5557E6"/>
+        <Button Content="DELETE FROM LIBRARY" HorizontalAlignment="Left" Margin="359,254,0,0" VerticalAlignment="Top" Width="276" Height="29" Background="#FF5557E6"/>
+        <Button Content="ADD TO PLAYLIST" HorizontalAlignment="Left" Margin="293,220,0,0" VerticalAlignment="Top" Width="276" Height="29" Background="#FF5557E6"/>
+        <Button Content="FEATURES" HorizontalAlignment="Left" Margin="457,288,0,0" VerticalAlignment="Top" Width="280" Height="29" RenderTransformOrigin="0.5,0.5" Background="#FF5557E6">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.208"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="GO TO ARTIST / ALBUM" HorizontalAlignment="Left" Margin="514,320,0,0" VerticalAlignment="Top" Width="276" Height="29" Click="Button_Click_1" Background="#FF5557E6"/>
+    </Grid>
+</Window>
